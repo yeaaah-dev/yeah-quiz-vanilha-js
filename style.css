@@ -10,7 +10,6 @@ body{
     background: linear-gradient(153deg, #D8EFF7 -12.14%, rgba(216, 239, 247, 0.00) 84.98%);
     min-width: 80rem;
     min-height: 52rem;
-
 }
 
 .divHeader {
@@ -22,13 +21,11 @@ body{
 .divHeader img {
     width: 3.5rem;
     height: 3.5rem;
-
 }
 
 .divTitleHeader{
     color: #000;
     font-family: Arista Pro Alternate;
     font-size: 1.8rem;
-    font-weight: 400;
-    
+    font-weight: 400; 
 }
