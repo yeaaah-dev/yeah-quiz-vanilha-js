@@ -1,34 +1,27 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Outfit', sans-serif;
+    margin:0;
+    padding:0;
+    font-family:'Outfit', sans-serif;
 }
 
 body{
-    border-radius: 2.625rem;
-    border: 1px solid #000;
-    background: linear-gradient(153deg, #D8EFF7 -12.14%, rgba(216, 239, 247, 0.00) 84.98%);
-    min-width: 80rem;
-    min-height: 52rem;
-
+    min-width:80rem;
+    min-height:52rem;
 }
 
 .divHeader {
-    display: flex;
-    margin: 2rem;
-    align-items: center;
+    display:flex;
+    margin:2rem;
+    align-items:center;
 }
 
 .divHeader img {
-    width: 3.5rem;
-    height: 3.5rem;
-
+    width:3.5rem;
+    height:3.5rem;
 }
 
 .divTitleHeader{
-    color: #000;
-    font-family: Arista Pro Alternate;
-    font-size: 1.8rem;
-    font-weight: 400;
-    
+    color:#000;
+    font-size:1.8rem;
+    font-weight:400;   
 }
