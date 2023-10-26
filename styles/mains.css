@@ -35,7 +35,7 @@
     border: none;
 }
 .button-stop {
-    border-radius: 0.875rem;
+    border-radius: 0.8rem;
     border: 1px solid #FF01AE;
     background: var(--BRANCO, #FFF);
     color: var(--ROSA, #FF01AE);
