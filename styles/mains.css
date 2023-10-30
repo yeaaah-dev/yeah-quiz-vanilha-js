@@ -10,25 +10,25 @@
     margin-top:1.2rem;
     gap:1.5rem;
 }
-.button-one, .button-two, .button-stop {
+.button-one, 
+.button-two, 
+.button-stop {
     width: 12rem;
     height: 3.5rem;
     border-radius: 0.8rem;
     cursor: pointer;
 }
 .button-one {
-    background: #0347FF;
-    color: var(--BRANCO, #FFF);
-    font-family: Outfit;
+    background:#0347FF;
+    color:#FFF;
     font-size: 1rem;
     font-weight: 400;
     line-height: 102.2%; /* 1.022rem */
     border: none;
 }
 .button-two {
-    background: #D8EFF7;
+    background:#D8EFF7;
     color: #000;
-    font-family: Outfit;
     font-size: 1rem;
     font-weight: 400;
     line-height: 102.2%; /* 1.022rem */
@@ -37,10 +37,10 @@
 .button-stop {
     border-radius: 0.8rem;
     border: 1px solid #FF01AE;
-    background: var(--BRANCO, #FFF);
-    color: var(--ROSA, #FF01AE);
-    font-family: Outfit;
+    background: #FFF;
+    color: #FF01AE;
     font-size: 1rem;
     font-weight: 400;
     line-height: 102.2%; /* 1.022rem */
 }
+
