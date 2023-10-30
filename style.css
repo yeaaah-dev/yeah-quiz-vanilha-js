@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 1.2rem;
+    margin-top:1.2rem;
+    gap:1.5rem;
+}
+.button-one, .button-two, .button-stop {
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.button-one {
+    background: #0347FF;
+    color: var(--BRANCO, #FFF);
+    font-family: Outfit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 102.2%; /* 1.022rem */
+    border: none;
+}
+.button-two {
+    background: #D8EFF7;
+    color: #000;
+    font-family: Outfit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 102.2%; /* 1.022rem */
+    border: none;
+}
+.button-stop {
+    border-radius: 0.8rem;
+    border: 1px solid #FF01AE;
+    background: var(--BRANCO, #FFF);
+    color: var(--ROSA, #FF01AE);
+    font-family: Outfit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 102.2%; /* 1.022rem */
+}
