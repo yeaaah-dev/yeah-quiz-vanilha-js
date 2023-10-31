@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Outfit', sans-serif;
 }
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -10,12 +11,14 @@
     margin-top:1.2rem;
     gap:1.5rem;
 }
+
 .button-one, .button-two, .button-stop {
     width: 12rem;
     height: 3.5rem;
     border-radius: 0.8rem;
     cursor: pointer;
 }
+
 .button-one {
     background: #0347FF;
     color: var(--BRANCO, #FFF);
@@ -25,6 +28,7 @@
     line-height: 102.2%; /* 1.022rem */
     border: none;
 }
+
 .button-two {
     background: #D8EFF7;
     color: #000;
@@ -34,6 +38,7 @@
     line-height: 102.2%; /* 1.022rem */
     border: none;
 }
+
 .button-stop {
     border-radius: 0.8rem;
     border: 1px solid #FF01AE;
@@ -44,3 +49,39 @@
     font-weight: 400;
     line-height: 102.2%; /* 1.022rem */
 }
+
+.content_select {
+    background-color: #FFFFFFFF;
+    
+    border: 1px solid #0347FF ;
+    border-radius: 0.375rem;
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 1rem;
+    padding-top: 1.38rem;
+    padding-bottom: 1.38rem;
+ }
+ 
+ .content_select img {
+     width: 2rem;
+     height: 2rem;
+ }
+ 
+ .container_select {
+     display: flex;
+     flex-direction: column;
+     gap: 1.44rem;
+
+     margin-top: 1rem;
+ }
+ 
+ .text_select {
+     font-family: Outfit;
+     font-size: 1rem;
+
+     text-align: justify;
+ }
+ 
