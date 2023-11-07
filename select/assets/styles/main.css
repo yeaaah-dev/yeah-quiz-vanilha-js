@@ -1,0 +1,110 @@
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+.content_button {
+
+    border-color: blue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+    gap: 32px;
+ }
+ 
+ .image {
+     width: 32px;
+     height: 32px;
+ }
+ 
+ .component_content {
+  padding: 23px 
+ }
+ 
+ .text {
+     font-family: Outfit;
+     text-align: justify;
+     font-size: 16px;
+     font-weight: 400;
+ } 
+
+ .content_button-one {
+    border-color: blue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #FFFFFFFF
+ }
+
+ .content_button-two {
+    border-color: blue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #EDEDED;
+ }
+
+.content_button-three {
+    border-color: blue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #EDEDED;
+}
+
+.content_button-four {
+    border-color: #66d03a;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+    gap: 32px;
+    border-radius: 0.375rem;
+    background: #66d03a;
+    color: #EDEDED;
+}
+
+.content_button-five {
+    border-color: #BF1111;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+    gap: 32px;
+    border-radius: 0.375rem;
+    background: #BF1111;
+    color: #EDEDED;
+}
