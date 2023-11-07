@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.content_button {
+.content-button {
 
     border-color: blue;
     border-radius: 6px;
@@ -22,7 +22,7 @@
      height: 32px;
  }
  
- .component_content {
+ .component-content {
   padding: 23px 
  }
  
@@ -33,7 +33,7 @@
      font-weight: 400;
  } 
 
- .content_button-one {
+ .content-button-one {
     border-color: blue;
     border-radius: 6px;
     display: flex;
@@ -47,7 +47,7 @@
     background-color: #FFFFFFFF
  }
 
- .content_button-two {
+ .content-button-two {
     border-color: blue;
     border-radius: 6px;
     display: flex;
@@ -61,7 +61,7 @@
     background-color: #EDEDED;
  }
 
-.content_button-three {
+.content-button-three {
     border-color: blue;
     border-radius: 6px;
     display: flex;
@@ -75,7 +75,7 @@
     background-color: #EDEDED;
 }
 
-.content_button-four {
+.content-button-four {
     border-color: #66d03a;
     border: none;
     border-radius: 6px;
@@ -92,7 +92,7 @@
     color: #EDEDED;
 }
 
-.content_button-five {
+.content-button-five {
     border-color: #BF1111;
     border: none;
     border-radius: 6px;
