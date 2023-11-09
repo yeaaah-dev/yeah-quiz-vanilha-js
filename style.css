@@ -4,6 +4,10 @@
     font-family:'Outfit', sans-serif;
 }
 
+html,body {
+    overflow-x: hidden;
+}
+
 body {
     min-width:80rem;
     height:100%;
@@ -107,4 +111,78 @@ body {
     color:#FF01AE;
     font-size: 1rem;
     font-weight: 400;
+}
+
+
+
+
+@media (max-width: 40rem){
+    html,body {
+        min-width: 0rem;
+        overflow-x: hidden;
+    }
+
+    .question, .answers, .buttons {
+        max-width: 17rem;
+    }
+
+    .answers {
+        gap: 1.5rem;
+    }
+
+    .content_button {
+        min-height: 10vh;
+        padding: 0rem 0.5rem 1rem 0.5rem;
+    }
+
+    .image {
+        margin-top: 0.8rem;
+    }
+
+    .text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 41rem) and (max-width: 60rem){
+    html,body {
+        min-width: 0rem;
+        overflow-x: hidden;
+    }
+
+    .question, .answers {
+        width: 40rem;
+    }
+
+    .question {
+        font-size: 2rem;
+    }
+
+    .answers {
+        gap: 1.5rem;
+        height: 100%;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .content_button {
+        width: 38rem;
+        height: 9rem;
+    }
+
+    .image {
+        margin-top: 0.8rem;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+
+    .buttons{
+        max-width: 100%;
+    }
+
+    .button-two, .button-stop {
+        width: 20rem;
+        height: 5rem;
+    }
 }
