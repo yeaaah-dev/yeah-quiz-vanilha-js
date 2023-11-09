@@ -10,6 +10,7 @@
     margin-left: 1.2rem;
     margin-top:1.2rem;
     gap:1.5rem;
+    margin-bottom: 1rem;
 }
 
 .button-one, .button-two, .button-stop {
@@ -84,4 +85,3 @@
 
      text-align: justify;
  }
- 
