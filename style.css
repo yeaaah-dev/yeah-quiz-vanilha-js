@@ -10,7 +10,8 @@ html,body {
 
 body {
     min-width:80rem;
-    height:100%;
+    height:100vh;
+
     background:linear-gradient(153deg, #D8EFF7 -12.14%, rgba(216, 239, 247, 0.00) 84.98%);
 }
 
@@ -113,8 +114,91 @@ body {
     font-weight: 400;
 }
 
+.button-start-quiz {
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
 
+    background:#0347FF;
+    color:#FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+}
 
+.answer {
+    width: 23rem;
+
+    border:1px solid #0347FF;
+    border-radius:0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:1rem;
+    padding-left:1rem;
+    padding-top:1.38rem;
+    padding-bottom:1.38rem;
+    gap:2rem;
+    background-color:#fff;
+    cursor:pointer;
+
+    transition: filter 0.2s;
+}
+
+.answer:hover {
+    background-color: #D8EFF7;
+}
+
+.hide {
+    display: none;
+}
+
+.content_button-one {
+    border-color: blue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: flex-start;
+    gap: 32px;
+    background-color: #FFFFFFFF
+}
+
+.selectAnswers{
+    background-color:#D8EFF7;
+    border-radius: 0.3rem;
+}
+
+.otherAnswers{
+    background-color:#EDEDED;
+    border-radius: 0.3rem;
+}
+
+.confirmAnswer{
+    border-radius: 0.8rem;
+    background: #0347FF;
+    color: #FFF;
+}
+
+.correct {
+    background-color:#66D03A;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.incorrect {
+    border-radius: 0.3rem;
+    background-color: #BF1111;
+    color: white;
+}
+
+button:disabled {
+    pointer-events: none;
+}
 
 @media (max-width: 40rem){
     html,body {
