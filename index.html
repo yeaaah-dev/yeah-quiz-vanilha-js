@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/images/YeahDev-Icon.ico">
 </head>
 <body>
     <header>
@@ -17,8 +18,10 @@
     </header>
     <main>
         <div class="container">
-            <div class="question">Kit de desenvolvimento de interface de usuário interface de usuário?</div>
-            <div class="answers">
+            <div class="question-container hide">
+                <span class="question">Kit de desenvolvimento de interface de usuário interface de usuário?</span>
+            </div>
+            <div class="answers hide">
               <div class="component_content">
                     <button class="content_button">
                         <span class="image">
@@ -53,8 +56,9 @@
                 </div>  
             </div> 
             <div class="buttons">
-                <button type="button" class="button-stop">Parar</button>
-                <button type="button" class="button-two">Confirmar ✔</button>
+                <button type="button" class="button-stop hide">Parar</button>
+                <button type="button" class="button-two hide">Confirmar ✔</button>
+                <button class="button-start-quiz">Começar Quiz</button>
             </div>
         </div>  
     </main>
