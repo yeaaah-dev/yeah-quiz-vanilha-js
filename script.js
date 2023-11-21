@@ -1,4 +1,3 @@
-// Aqui eu busco no HTMl as tags que eu preciso 
 const startGameButton = document.querySelector(".button-start-quiz") 
 const questionsContainer = document.querySelector(".question-container")
 const answersContainer = document.querySelector(".answers")
@@ -6,7 +5,6 @@ const stopButton = document.querySelector(".button-stop")
 const confirmButton = document.querySelector(".button-two")
 const questionText = document.querySelector(".question")
 
-// Aqui 
 let currentQuestionsIndex = 0
 
 startGameButton.addEventListener("click",startGame)
@@ -99,7 +97,6 @@ function selectAnswer(event) {
 }
 
 function validAnswer() {
-
     const correctAnswer = questions[currentQuestionsIndex].answers.findIndex(answer => answer.correct)
     document.querySelectorAll(".answer").forEach((button, index) =>{
         const checkedButtonCircleWhite = button.querySelector(".image")
@@ -144,21 +141,7 @@ function stopQuiz() {
     startGame()
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 const questions = [
-
     {
         question: "Dentro de qual elemento HTML colocamos o JavaScript?",
         answers: [
@@ -195,5 +178,4 @@ const questions = [
           { text: 'Nenhum desses códigos criaria uma função', correct: false }
         ]
     },
-
 ]

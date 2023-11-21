@@ -154,8 +154,6 @@ body {
     display: none;
 }
 
-/* New buttons */
-
 .content_button-one {
     border-color: blue;
     border-radius: 6px;
@@ -168,9 +166,9 @@ body {
     justify-content: flex-start;
     gap: 32px;
     background-color: #FFFFFFFF
- }
+}
 
- .selectAnswers{
+.selectAnswers{
     background-color:#D8EFF7;
     border-radius: 0.3rem;
 }
